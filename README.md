@@ -15,7 +15,9 @@ A professional Telegram bot designed for real-time monitoring of the Solana bloc
 
 Check out the bot in action:
 
-![Bot Demo](docs/assets/demo.mp4)
+
+https://github.com/user-attachments/assets/9c81498d-3a47-4691-86e1-13028e6a9391
+
 
 *(Note: If viewing on GitHub, you can find the video file at `docs/assets/demo.mp4`)*
 
