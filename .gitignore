@@ -1,0 +1,58 @@
+# --- Секреты и конфиденциальность (САМОЕ ВАЖНОЕ) ---
+.env
+# Исключаем все файлы с расширением .env, кроме примера
+*.env
+!.env.example
+
+# --- Виртуальное окружение ---
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# --- База данных (SQLite) ---
+# Игнорируем файлы БД, чтобы не затереть локальные данные при деплое
+*.db
+*.sqlite3
+*.db-journal
+
+# --- Python (Кэш и временные файлы) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Логи ---
+*.log
+logs/
+
+# --- IDE (PyCharm, VSCode) ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Системные файлы ---
+.DS_Store
+Thumbs.db
+
+docs/
